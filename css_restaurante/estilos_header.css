@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.header {
+    display: flex;
+    /* flex-flow: row wrap; */
+    /* background: blue; */
+    flex-direction: row;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 100px;
+    /* padding: 40px; */
+    /* border: 1px solid black; */
+    /* background-image: url(/imagem/restaurante.jpg); */
+    background-size: cover;
+    background-position: center;
+}
+
+.textos {
+    flex: 50%;
+    /* border: 1px solid black; */
+    margin-top: 0%;
+}
+
+.paragrafos {
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: justify;
+    /* background: rgb(204, 47, 26); */
+    color: rgb(204, 47, 26);
+    width: 700px;
+    height: 220px;
+    /* border-top: 3px solid rgb(147, 138, 138); */
+    /* border: 1px solid black; */
+    margin-top: 0%;
+    border-top: 3px solid rgb(127, 127, 127);
+}
+
+#visao:hover {
+    border-bottom: 3px solid rgb(127, 127, 127);
+}
+
+.paragrafos div {
+    /* border: 1px solid black; */
+    color: rgb(204, 47, 26);
+    margin-top: 0%;
+}
+
+.paragrafos:hover {
+    color: white;
+    background: green;
+
+}
+
+.paragrafos h2 {
+    font-size: 65px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.paragrafos:hover h2 {
+    font-size: 20px;
+    margin-top: 0%;
+}
+
+.paragrafos p {
+    visibility: hidden;
+}
+
+.paragrafos:hover p {
+    visibility: visible;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    /* background: green; */
+
+}
+
+.imagem {
+    /* border: 1px black solid; */
+    flex: 50%;
+    border-radius: 100%;
+    margin: 20px;
+    margin-right: 0%;
+    margin-left: 100px;
+    background-image: url(/imagem/brinde.jpg);
+    background-size: cover;
+    background-position: top;
+    /* position: relative; */
+}
