@@ -9,3 +9,13 @@
     margin-top: 150px;
     align-items: center;
 }
+
+.link_redes img {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+
+b {
+    margin-bottom: 5px;
+}
