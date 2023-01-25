@@ -1,102 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-.section {
-    /* display: flex; */
-    border: 4px solid rgb(127, 127, 127);
-    border-radius: 20%;
-    margin-top: 150px;
-    margin-left: 100px;
-    margin-right: 100px;
-    /* flex-direction: row; */
-    /* background: rgb(255, 253, 243); */
-    /* background: rgb(0, 0, 0); */
+* {
+    box-sizing: border-box;
 }
 
-.menu {
+.section {
     display: flex;
-    /* border: 1px solid black; */
     flex-direction: column;
+    border: 4px solid rgb(127, 127, 127);
+    border-radius: 20%;
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
 }
 
 .menu_1 {
     display: flex;
     /* border: 1px solid black; */
     margin-top: 50px;
-
+    flex-direction: row;
 }
 
 .menu_2 {
     display: flex;
     /* border: 1px solid black; */
     margin-top: 50px;
-    margin-bottom: 100px;
-
+    flex-direction: row;
 }
 
 .pratos {
-    flex: 40%;
-    /* border: 1px solid black; */
-    font-size: 25px;
-    line-height: 40px;
+    flex: 50%;
+    border: 1px solid black;
+    font-size: 20px;
+    line-height: 30px;
     /* color: rgb(3, 179, 3); */
     color: rgb(204, 47, 26);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.menu_1 .pratos {
-    padding-left: 50px;
-}
-
-.menu_2 .pratos {
-    padding-left: 100px;
-}
-
-.precos {
-    flex: 10%;
-    /* border: 1px solid black; */
-    font-size: 25px;
-    line-height: 40px;
-    /* color: rgb(3, 179, 3); */
-    color: rgb(204, 47, 26);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.menu_1 .precos {
-    margin-right: 100px;
-}
-
-.img_menu_1 {
-    flex: 40%;
-    /* border: 1px solid black; */
-    background-image: url(/imagem/humburguer2.jpg);
-    border-radius: 30%;
-    background-position: top;
-}
-
-#img_1 {
-    margin-left: 125px;
-
-}
-
-.img_menu_2 {
-    flex: 40%;
-    /* border: 1px solid black; */
-    background-image: url(/imagem/pratos2.jpg);
-    border-radius: 30%;
-}
-
-#img_2 {
-    margin-right: 100px;
-    margin-left: 100px;
-}
-
-.section h2 {
-    text-align: center;
-    font-size: 60px;
-    color: rgb(3, 179, 3);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-li {
-    list-style-type: none;
+.imagem {
+    flex: 50%;
+    border: 1px solid black;
 }

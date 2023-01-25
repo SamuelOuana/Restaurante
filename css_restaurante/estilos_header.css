@@ -1,42 +1,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 .header {
     display: flex;
-    /* flex-flow: row wrap; */
-    /* background: blue; */
-    flex-direction: row;
-    margin-left: 150px;
-    margin-right: 100px;
-    margin-top: 100px;
-    /* padding: 40px; */
+    flex-direction: column;
+    margin-top: 0px;
+    /* margin-right: 100px; */
+    /* margin-left: 100px; */
+    background-size: cover;
+    background-position: center;
     /* border: 1px solid black; */
-    /* background-image: url(/imagem/restaurante.jpg); */
+
+}
+
+.header_2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 87px;
+    /* border: 1px solid black;  */
+    background: rgb(242, 242, 242);
+
+}
+
+.header_2 a {
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.header_2 a:hover {
+    background: rgb(0, 88, 0);
+    font-size: 22px;
+}
+
+.header_textos {
+    margin-top: 0%;
+    display: flex;
+    /* border: 1px solid black; */
+    flex: 40%;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.img_principal {
+    flex: 60%;
+    display: flex;
+    /* border: 1px solid black; */
+
+}
+
+.header_textos .titulo {
+    font-size: 70px;
+    /* border: 1px solid black; */
+    color: rgb(204, 47, 26);
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0%;
+    margin-top: 50px;
+}
+
+.header_textos p {
+    font-size: 30px;
+    /* border: 1px solid black; */
+    font-family: 'Roboto', sans-serif;
+    color: green;
+    margin-top: 0%;
+}
+
+.img_principal img {
+    height: 800px;
+    width: 1000px;
+    margin-left: 100px;
+}
+
+
+.header_3 {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-right: 100px;
+    margin-left: 100px;
     background-size: cover;
     background-position: center;
 }
 
 .textos {
+    display: flex;
     flex: 50%;
+    flex-direction: column;
     /* border: 1px solid black; */
-    margin-top: 0%;
+}
+
+.img_fundo {
+    /* border: 1px black solid; */
+    flex: 50%;
+}
+
+.img_fundo img {
+    /* border: 1px black solid; */
+    width: 600px;
+    height: 600px;
+    border-radius: 100%;
+    margin-right: 100px;
 }
 
 .paragrafos {
     border-radius: 10px;
-    font-size: 16px;
     text-align: justify;
-    /* background: rgb(204, 47, 26); */
     color: rgb(204, 47, 26);
-    width: 700px;
-    height: 220px;
-    /* border-top: 3px solid rgb(147, 138, 138); */
     /* border: 1px solid black; */
-    margin-top: 0%;
-    border-top: 3px solid rgb(127, 127, 127);
+    border-top: 2px solid rgb(127, 127, 127);
 }
 
-#visao:hover {
-    border-bottom: 3px solid rgb(127, 127, 127);
+#visao {
+    border-bottom: 2px solid rgb(127, 127, 127);
 }
 
 .paragrafos div {
@@ -46,43 +135,36 @@
 }
 
 .paragrafos:hover {
-    color: white;
-    background: green;
+    color: black;
+    /* background: rgb(255, 253, 243); */
+
 
 }
 
 .paragrafos h2 {
-    font-size: 65px;
+    font-size: 50px;
     text-align: center;
     font-family: 'Lobster', cursive;
 }
 
 .paragrafos:hover h2 {
-    font-size: 20px;
+    font-size: 0px;
     margin-top: 0%;
 }
 
 .paragrafos p {
-    visibility: hidden;
+    font-size: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* background: green; */
+
 }
 
 .paragrafos:hover p {
     visibility: visible;
     font-family: 'Roboto', sans-serif;
+    font-size: 17px;
     line-height: 28px;
     /* background: green; */
 
-}
-
-.imagem {
-    /* border: 1px black solid; */
-    flex: 50%;
-    border-radius: 100%;
-    margin: 20px;
-    margin-right: 0%;
-    margin-left: 100px;
-    background-image: url(/imagem/brinde.jpg);
-    background-size: cover;
-    background-position: top;
-    /* position: relative; */
 }
