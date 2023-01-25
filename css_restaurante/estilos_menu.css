@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(127, 127, 127);
+    /* border-radius: 20%; */
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+
+}
+
+h2 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 40px;
+    color: green;
+}
+
+.menu_1 {
+    margin-top: 0px;
+    display: flex;
+    border: 1px solid blue;
+    margin-top: 0px;
+    flex-direction: row;
+}
+
+.menu_2 {
+    margin-top: 0px;
+    display: flex;
+    border: 1px solid blue;
+    margin-top: 10px;
+    flex-direction: row;
+}
+
+.pratos {
+    flex: 25%;
+    border: 1px solid blue;
+    font-size: 16px;
+    line-height: 28px;
+    /* color: rgb(3, 179, 3); */
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imagem {
+    display: flex;
+    flex: 25%;
+    border: 1px solid blue;
+}
+
+.imagem img {
+    border-radius: 25%;
+    width: 350px;
+    height: 250px;
+    margin-top: 50px;
+
+}
+
+.botoes {
+    display: flex;
+    margin-top: 25px;
+    /* border: 1px solid red; */
+}
+
+.botoes a {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 0px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.botoes a:hover {
+    background: rgb(0, 88, 0);
+    font-size: 20px;
+}

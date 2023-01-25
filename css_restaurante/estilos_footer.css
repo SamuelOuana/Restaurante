@@ -8,6 +8,15 @@
     border: 1px solid black;
     margin-top: 150px;
     align-items: center;
+    background: rgb(223, 223, 223);
+}
+
+.logo_final {
+    font-size: 14px;
+    line-height: 5px;
+    margin-top: 5px;
+    color: green;
+    font-family: 'Lobster', cursive;
 }
 
 .link_redes img {
