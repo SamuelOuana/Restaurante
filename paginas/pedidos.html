@@ -6,65 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RestauranteYushi_Pedidos</title>
-    <link rel="stylesheet" href="/css_restaurante/estilos_pag_principal.css">
+    <link rel="stylesheet" href="/css_restaurante/estilos_pedidos">
 </head>
 
-<body>
-    <h1>Formulario de pedidos</h1>
+<body class="body">
+    <div class="formulario">
+        <h1>Formulario de pedidos</h1>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" name="campo_nome" id="nome" placeholder="Digita o nome" required>
 
-    <h2>Dados do clientes</h2>
-    <form>
-        <label for="nome">Nome:</label>
-        <input type="text" name="campo_nome" id="nome" placeholder="Digita o nome" required>
+            <label for="apelido">Apelido:</label>
+            <input type="text" name="campo_apelido" id="apelido" placeholder="Digita o apelido" required>
 
-        <label for="apelido">Apelido:</label>
-        <input type="text" name="campo_apelido" id="apelido" placeholder="Digita o apelido" required>
+            <label for="endereco">endereco:</label>
+            <input type="adress" name="campo_endereco" id="endereco" placeholder="Insira o endereco" required>
 
-        <label for="endereco">endereco:</label>
-        <input type="adress" name="campo_endereco" id="endereco" placeholder="Insira o endereco" required>
+            <label for="email">Email:</label>
+            <input type="email" name="camppo_email" id="email" placeholder="Insira o email" required>
 
-        <label for="email">Email:</label>
-        <input type="email" name="camppo_email" id="email" placeholder="Insira o email" required>
+            <label for="senha">Senha:</label>
+            <input type="password" name="campo_senha" id="senha" placeholder="Insira a senha" required>
+    </div>
 
-        <label for="senha">Senha:</label>
-        <input type="password" name="campo_senha" id="senha" placeholder="Insira a senha" required>
-        <br><br>
-
-
-        <h2>Selecionar todas as refeicoes</h2>
+    <div class="refeicoes">
+        <h2>Selecionar as refeicoes</h2>
 
         <input type="checkbox" name="comidas" id="bx_sopa_legumes" value="Sopa de legumes">
         <label for="bx_sopa_legumes">Sopa de legumes <sup>50MT</sub></label>
-        <br><br>
+
 
         <input type="checkbox" name="comidas" id="bx_sopa_feijao" value="Sopa de feijao">
         <label for="bx_sopa_feijao">Sopa de feijao <sup>70MT</sup></label>
-        <br><br>
+
 
         <input type="checkbox" name="comidas" id="bx_cha_verde">
         <label for="bx_cha_verde">Cha verde <sup>80MT</sup></label>
-        <br><br>
+
 
         <input type="checkbox" name="comidas" id="bx_leite_quente">
         <label for="bx_leite_quente">Leite quente <sup>100MT</sup></label>
-        <br><br>
+
 
         <input type="checkbox" name="comidas" id="bx_biscoitos_amanteigados">
         <label for="bx_biscoitos_amanteigados">Biscoitos amanteigados <sup>110MT</sup></label>
-        <br><br>
 
         <input type="checkbox" name="comidas" id="bx_sandes_ovo_palone_rachel_batata">
         <label for="bx_sandes_ovo_palone_rachel_batata">Sandes (ovo, palone, rachel e batata) <sup>100MT</sup></label>
-        <br><br>
 
         <input type="checkbox" name="comidas" id="bx_1kg_biscoitos_maizena">
         <label for="bx_1kg_biscoitos_maizena">1kg biscoitos de maizena <sup>200MT</sup></label>
-        <br><br>
-
-
 
         <input type="submit" name="submissao" id="submissao">
-    </form>
+        </form>
+    </div>
     <br><br>
     <a href="/index.html">voltar a pagina inicial</a>
 </body>
